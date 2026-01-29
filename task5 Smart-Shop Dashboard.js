@@ -2,7 +2,7 @@
 function fetchUser(id) {
   return new Promise((resolve) => {
     setTimeout(() => {
-      resolve({ name: "Atul", isPremium: true });
+      resolve({ name: "Kartikey", isPremium: true });
     }, 1000);
   });
 }
